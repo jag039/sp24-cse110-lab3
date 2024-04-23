@@ -1,1 +1,29 @@
-hello
+/*This is my new CSS page*/
+.body{
+    background-color: rgb(240, 255, 255);
+}
+
+.title{
+    color:#00008b;
+    font-size: 40px;
+}
+
+.table_of_content{
+    color:hsl(240, 100%, 50%);
+}
+
+.Meeting1{
+    color: black;
+    background: linear-gradient(to right, azure, aliceblue); 
+    
+   
+
+}
+
+.Meeting2{
+
+}
+
+.Meeting3{
+
+}
