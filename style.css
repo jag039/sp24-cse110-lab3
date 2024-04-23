@@ -1,6 +1,10 @@
 /*This is my new CSS page*/
+:root{
+    --main-color: rgb(240, 255, 255);
+}
+
 .body{
-    background-color: rgb(240, 255, 255);
+    background-color: var(--main-color, blue)
 }
 
 .title{
@@ -10,20 +14,49 @@
 
 .table_of_content{
     color:hsl(240, 100%, 50%);
+    font-size: 0.75cm
 }
 
 .Meeting1{
-    color: black;
-    background: linear-gradient(to right, azure, aliceblue); 
-    
-   
+    color: linear-gradient(to right,black, grey);   
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 1em;
+}
 
+.meet1Title{
+    color: bluelinear-gradient(to right,black, blue);  
+    border-style: solid;
+    border-color: black;
+    border-radius: 2em; 
+    padding-left: 2em;
 }
 
 .Meeting2{
-
+    color: linear-gradient(to right,black, grey);   
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 1em;
 }
 
 .Meeting3{
-
+    color: linear-gradient(to right,black, grey);   
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 1em;
 }
