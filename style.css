@@ -53,8 +53,7 @@
     font-size: 0.75cm
 }
 
-.Meeting1{
-    color: linear-gradient(to right,black, grey);   
+.Meeting1{ 
     margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
@@ -69,18 +68,18 @@
     font-style: normal;
 }
 
-.meet1Title{
-    color: bluelinear-gradient(to right,black, blue);  
+.meet1Title{ 
     border-style: solid;
     border-color: black;
     border-radius: 2em; 
     padding-left: 2em;
     text-decoration: underline;
     text-align: center;
+    color: black;
 }
 
 .Meeting2{
-    color: linear-gradient(to right,black, grey);   
+    color: black;   
     margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
@@ -96,7 +95,7 @@
 }
 
 .meet2Title{
-    color: bluelinear-gradient(to right,black, blue);  
+    color: black;  
     border-style: solid;
     border-color: black;
     border-radius: 2em; 
@@ -106,7 +105,7 @@
 }
 
 .Meeting3{
-    color: linear-gradient(to right,black, grey);   
+    color: black;   
     margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
@@ -122,7 +121,7 @@
 }
 
 .meet3Title{
-    color: bluelinear-gradient(to right,black, blue);  
+    color: black;  
     border-style: solid;
     border-color: black;
     border-radius: 2em; 
@@ -154,9 +153,8 @@
 }
 
 .vid{
-    max-height: 90vw;
-    max-width: 90vw;
-    padding-left: -10px;
+    max-height: 80vw;
+    max-width: 80vw;
 }
 
 button:hover {
