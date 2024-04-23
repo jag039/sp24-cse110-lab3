@@ -15,13 +15,22 @@
     }
 }
 
+h3 {
+    color: rgb(29, 29, 93);
+}
+
+
+
 :root{
     --main-color: rgb(240, 255, 255);
 }
 
-.body{
+* {
     background-color: var(--main-color, blue)
-    
+}
+
+input[type="checkbox"] {
+    margin-left: 20px;
 }
 
 .title{
@@ -37,7 +46,7 @@
     
 }
 
-.name{
+#name{
     position: sticky;
     top: 10px;
     text-align: right;
@@ -78,7 +87,7 @@
     color: black;
 }
 
-.Meeting2{
+.Meeting2, .Meeting3{
     color: black;   
     margin-top: auto;
     margin-bottom: auto;
@@ -104,21 +113,6 @@
     text-align: center;
 }
 
-.Meeting3{
-    color: black;   
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
-    padding: 1em;
-
-    font-family: "Jersey 10", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
 
 .meet3Title{
     color: black;  
@@ -163,4 +157,41 @@ button:hover {
 
 button:active{
     color: red
+}
+
+div h2{
+    color: purple
+}
+
+div > p{
+    color: purple
+}
+
+h1 ~ h2{
+    color: rgb(232, 50, 232);
+}
+
+h3 + h4{
+    color:crimson
+}
+
+h5.ref{
+    color: color-mix(overlay, blue, yellow 50%);
+}
+
+h1:has(p){
+    color:blue;
+}
+
+.example {
+    & > a{
+      color: red;
+      &:hover{
+        color: white;
+        background-color: color(display-p3 1 2 3);
+      }
+    }
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
