@@ -35,6 +35,8 @@
     border-color: black;
     border-radius: 2em; 
     padding-left: 2em;
+    text-decoration: underline;
+    text-align: center;
 }
 
 .Meeting2{
@@ -49,6 +51,16 @@
     padding: 1em;
 }
 
+.meet2Title{
+    color: bluelinear-gradient(to right,black, blue);  
+    border-style: solid;
+    border-color: black;
+    border-radius: 2em; 
+    padding-left: 2em;
+    text-decoration: underline;
+    text-align: center;
+}
+
 .Meeting3{
     color: linear-gradient(to right,black, grey);   
     margin-top: auto;
@@ -59,4 +71,14 @@
     border-style: solid;
     border-width: 1px;
     padding: 1em;
+}
+
+.meet3Title{
+    color: bluelinear-gradient(to right,black, blue);  
+    border-style: solid;
+    border-color: black;
+    border-radius: 2em; 
+    padding-left: 2em;
+    text-decoration: underline;
+    text-align: center;
 }
