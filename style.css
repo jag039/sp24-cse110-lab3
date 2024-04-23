@@ -1,10 +1,17 @@
 /*This is my new CSS page*/
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 :root{
     --main-color: rgb(240, 255, 255);
 }
 
 .body{
     background-color: var(--main-color, blue)
+    
 }
 
 .title{
@@ -17,12 +24,17 @@
     border-style: ridge;
     position: static;
     top: 20px
+    
 }
 
 .name{
     position: sticky;
     top: 10px;
     text-align: right;
+
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
@@ -41,6 +53,10 @@
     border-style: solid;
     border-width: 1px;
     padding: 1em;
+
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .meet1Title{
@@ -63,6 +79,10 @@
     border-style: solid;
     border-width: 1px;
     padding: 1em;
+
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .meet2Title{
@@ -85,6 +105,10 @@
     border-style: solid;
     border-width: 1px;
     padding: 1em;
+
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .meet3Title{
