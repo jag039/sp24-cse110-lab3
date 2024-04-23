@@ -82,3 +82,15 @@
     text-decoration: underline;
     text-align: center;
 }
+
+.attend{
+    display: block;
+    border-color: black;
+    border-style: solid;
+}
+
+.attend2{
+    display: inline-block;
+    border-color: black;
+    border-style: dashed;
+}
