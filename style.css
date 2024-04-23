@@ -10,7 +10,21 @@
 .title{
     color:#00008b;
     font-size: 40px;
+    text-align: center;
+    text-decoration: solid;
+    text-decoration: underline;
+    border-color: black;
+    border-style: ridge;
+    position: static;
+    top: 20px
 }
+
+.name{
+    position: sticky;
+    top: 10px;
+    text-align: right;
+}
+
 
 .table_of_content{
     color:hsl(240, 100%, 50%);
@@ -93,4 +107,19 @@
     display: inline-block;
     border-color: black;
     border-style: dashed;
+}
+
+.theForm{
+    border-color:black;
+    border-style:dashed;
+    height: 5cm;
+    width: max-content;
+    max-width: 100vw;
+}
+
+.vid{
+    max-height: 100vw;
+    max-width: 100vw;
+    padding: 2em;
+
 }
